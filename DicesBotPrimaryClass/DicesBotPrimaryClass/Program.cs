@@ -1,4 +1,12 @@
-﻿using Discord;
+﻿using Discord.Commands;
+using Discord;
+using Discord.API;
+using Discord.Audio;
+using Discord.ETF;
+using Discord.Legacy;
+using Discord.Logging;
+using Discord.Modules;
+using Discord.Net;
 
 class Program {
     static void Main(string[] args) => new Program().Start();
